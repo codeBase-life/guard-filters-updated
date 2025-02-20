@@ -241,3 +241,16 @@ button{
 .carousel .carousel-inner > .carousel-item.active {
     transform: translateY(0);
 }
+
+
+
+
+/* clients */
+.clients{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-transform: capitalize;
+    
+}
