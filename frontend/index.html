@@ -25,7 +25,7 @@
 
 </head>
 
-<body style="background-color: #F3F3F3;">
+<body style="background-color: #f3f3f3;">
     <header>
         <section class="navBar">
             <nav class="navbar navbar-expand-md">
@@ -53,7 +53,7 @@
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">About us</a></li>
+                                    <li><a class="dropdown-item" href="#AboutUs">About us</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
@@ -114,12 +114,12 @@
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                 <div class="carousel-indicators">
-                    <button type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active circle-btn" aria-current="true" aria-label="Slide 1"></button>
-                    <button class="circle-btn" type="button " data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button class="circle-btn" type="button " data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        class="circle-btn" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        class="circle-btn" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
@@ -150,8 +150,7 @@
                                                 Filters</button>
                                         </li>
                                         <li class=" order-0 order-md-1">
-                                            <p class="fs-6 ">“Visit our store today to learn more about filters”
-                                            </p>
+                                            <p class="fs-6 ">"Visit our store today to learn more about filters"</p>
                                         </li>
 
                                     </ul>
@@ -190,8 +189,7 @@
                                                 Filters</button>
                                         </li>
                                         <li class=" order-0 order-md-1">
-                                            <p class="fs-6 ">“Visit our store today to learn more about filters”
-                                            </p>
+                                            <p class="fs-6 ">"Visit our store today to learn more about filters"</p>
                                         </li>
 
                                     </ul>
@@ -229,8 +227,7 @@
                                                 Filters</button>
                                         </li>
                                         <li class=" order-0 order-md-1">
-                                            <p class="fs-6 ">“Visit our store today to learn more about filters”
-                                            </p>
+                                            <p class="fs-6 ">"Visit our store today to learn more about filters"</p>
                                         </li>
 
                                     </ul>
@@ -248,6 +245,8 @@
         </section>
         br
         <section class="clients my-5" id="clients1">
+
+            <!-- only visible on lg and > devices  -->
             <div class="container">
                 <div class="row ">
                     <div class="col-12 col-md-6 order-1 order-md-0">
@@ -278,13 +277,13 @@
                     <div class="col-12 col-md-6 order-0 order-md-1 d-flex align-items-center">
                         <ul class="list-unstyled  d-flex gap-4 flex-column ">
                             <li>
-                                <h2 class="fs-1 clients">our clients</h2>
+                                <h2 class="fs-1 client">our clients</h2>
                             </li>
                             <li>
                                 <p class="fs-5 text-black">Trusted by Leading Businesses and Professionals</p>
                             </li>
                             <li>
-                                <p class="text-primary-emphasis">Our clients include a wide range of businesses and
+                                <p class="text-body-secondary">Our clients include a wide range of businesses and
                                     professionals who trust our
                                     filters for their vehicles. With a history of dedicated service and proven
                                     performance, we ensure unmatched protection and efficiency for their engines.</p>
@@ -298,11 +297,86 @@
         </section>
 
         <br>
-        <section class="about us my-5" id="AboutUs">
+        <section class="about us my-5 d-none d-lg-block d-xl-block" id="AboutUs">
             <div class="container">
-                <h2 class="about-us text-center"> about us</h2>
-                <p class="text-black text-center">Our Commitment to Quality and innovation</p>
+                <h2 class="about-us text-center "> about us</h2>
+                <p class="text-black text-center mt-3">Our Commitment to Quality and innovation</p>
+                <div class=" about-us-data p-5 rounded position-relative mt-5">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-column gap-3">
+                            <p class="about-us-para1 text-body-secondary"><b class="text-black">Introduction:</b> At
+                                Allied Filters, we are
+                                dedicated to
+                                providing top-quality filters
+                                for a wide range of vehicles and industrial applications. Our journey began with a
+                                simple mission: to deliver exceptional filtration solutions that enhance engine
+                                performance and longevity.</p>
+                            <p class="about-us-para2 text-body-secondary rounded ms-auto"><b class="text-black">Our
+                                    Mission:</b> Our
+                                mission is to deliver superior filtration
+                                products that protect
+                                and enhance engine performance. We strive to achieve this through continuous innovation,
+                                stringent quality control, and a customer-centric approach.</p>
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                            <p class="fs-6 about-us-para3 rounded py-3 px-5 bg-light text-body-secondary"><b
+                                    class="text-black">Our History: </b>Founded in
+                                2024, our company has
+                                grown
+                                from a small
+                                startup to a
+                                trusted name in the filtration industry. Our founder, [Founder's Name], recognized the
+                                need for reliable filters that could withstand the toughest conditions. With a passion
+                                for innovation and a commitment to quality, [Founder's Name] built a company that
+                                prioritizes customer satisfaction above all.</p>
+                        </div>
+                    </div>
+                    <div class="about-us-two-points position-absolute ">
+                        <div class="d-flex gap-5">
+                            <div class=" text-black rounded py-1 px-3 bg-light about-us-box1">
 
+                                <ul class="list-unstyled d-flex gap-3 align-items-center">
+                                    <li><img class="img-fluid " src="/frontend/assets/mountain.png" alt="">
+                                    </li>
+                                    <ul class="list-unstyled">
+
+                                        <li>
+                                            <b class="about-us-10k fs-4">10K+</b>
+                                        </li>
+                                        <li>
+                                            <p class="text-black">Satisfied Customers</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+
+                            </div>
+                            <div class=" text-black rounded py-1 px-3 bg-light about-us-box2">
+                                <ul class="list-unstyled d-flex gap-3 align-items-center">
+                                    <li>
+                                        <img class="img-fluid" src="/frontend/assets/diamond.png" alt="">
+                                    </li>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <b class="fs-4 about-us-10k">2K+</b>
+                                        </li>
+                                        <li>
+                                            <p class="text-black"> Quality Products</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- trusted brands -->
+        <section class="trusted brands" my-5>
+            <div class="container">
+                <h2>trusted brands we partner with</h2>
             </div>
         </section>
 
@@ -315,8 +389,7 @@
         crossorigin="anonymous"></script>
 
 
-    <script src=".
-    /frontend/index.js"></script>
+    <script src="/frontend/index.js"></script>
 </body>
 
 </html>
