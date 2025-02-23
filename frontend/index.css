@@ -384,7 +384,7 @@ right: 0%;
 }
 
 /* products */
-.products-title{
+.products-main-title{
     background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -398,3 +398,66 @@ right: 0%;
     -webkit-text-fill-color: transparent;
     text-transform: capitalize;
 }
+
+.product-title{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+}
+
+.product-btn{
+    border: none;
+    border-radius: 40px;
+    padding: 5px 20px;
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.product-btn:hover {
+    transform: translateY(-10%);
+    transition: transform 0.3s ease-in-out;
+}
+.products-btn-more-products{
+
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.products-btn-more-products:hover{
+    transform: translateY(-10%);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+/* featured products */
+
+.featured-products-title{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+}
+.featured-products-btn{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    border: none;
+    padding: 10px 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.featured-products-btn:hover{
+    transform: translateY(-10%);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* testimonials */
+
+.testimonials-heading{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+}
+
+
