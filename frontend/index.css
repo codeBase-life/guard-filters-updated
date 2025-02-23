@@ -382,3 +382,19 @@ right: 0%;
     -webkit-text-fill-color: transparent;
     text-transform: capitalize;
 }
+
+/* products */
+.products-title{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+}
+.products-allied-option{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+}
