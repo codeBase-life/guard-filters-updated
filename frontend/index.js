@@ -64,3 +64,18 @@
 //     updateIndicators();
 //   });
 // });
+
+var splide = new Splide(".splide", {
+  type: "loop",
+  perPage: 3,
+  focus: "center",
+  pagination: false,
+  gap: "1rem",
+  breakpoints: {
+    768: {
+      perPage: 1,
+    },
+  },
+});
+
+splide.mount();

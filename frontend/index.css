@@ -461,3 +461,38 @@ right: 0%;
 }
 
 
+.splide__arrow{
+top: 130%;
+}
+.splide__arrow--prev{
+    
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 10px;
+    left: 45%;
+}
+.splide__arrow--next{
+   color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 10px;
+    right: 45%;
+}
+@media(max-width:768px){
+    .splide__arrow{
+        top: 110%;
+    }
+    .splide__arrow--prev{
+        left: 30%;
+    }
+    .splide__arrow--next{
+        right: 30%;
+    }
+}
+
+.splide__arrow--next:focus{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+}
+.splide__arrow--prev:focus{
+    background: linear-gradient(180deg, #27247D 0%, #4741E3 100%);
+}
